@@ -1,0 +1,57 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+    background:linear-gradient(90deg, #fffdfd9a, #7c767691);
+    height: 100vh;
+    text-align: center;
+    color: #2e2e2e;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    justify-content: center;
+}
+
+
+.cal-corpo{
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #ffffff50;
+}
+
+.tela{
+    background-color: #fff;
+    height: 28px;
+    color: #000;
+    font-size: 20px;
+    text-align: end;
+    margin: 3px;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+
+.insta{
+    font-weight: bold;
+    font-size: 15px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+    <title>Calculadora - Andre Azevedo</title>
+</head>
+<body>
+<div class="cal-corpo">
+    <h1>Calculadora</h1>
+    <div class="tela"></div>
+    <table>
+        <tr>
+            <td><button onclick="clean('')">C</button></td>
+            <td><button onclick="back()"><</button></td>
+            <td><button onclick="inserir('/')">÷</button></td>
+            <td><button onclick="inserir('*')">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="inserir('7')">7</button></td>
+            <td><button onclick="inserir('8')">8</button></td>
+            <td><button onclick="inserir('9')">9</button></td>
+            <td><button onclick="inserir('-')"">-</button></td> 
+        </tr>
+        <tr>
+            <td><button onclick="inserir('4')">4</button></td>
+            <td><button onclick="inserir('5')">5</button></td>
+            <td><button onclick="inserir('6')">6</button></td>
+            <td><button onclick="inserir('+')">+</button></td> 
+        </tr>
+        <tr>
+            <td><button onclick="inserir('1')">1</button></td>
+            <td><button onclick="inserir('2')">2</button></td>
+            <td><button onclick="inserir('3')">3</button></td>
+            <td rowspan="2"><button style="height: 102px;" onclick="somar()">=</button></td> 
+        </tr>
+        <tr>
+            <td colspan="2"><button style="width: 102px;" onclick="inserir('0')">0</button></td>
+            <td><button onclick="inserir('.')">.</button></td>
+        </tr>
+    </table>
+    <span class="insta">&copy;andreDev</span>
+</div>
+
+    
+</body>
+<script src="/calculadora/script.js"></script>
+</html>
